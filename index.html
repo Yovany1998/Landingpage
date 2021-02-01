@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
+    <script src="https://unpkg.com/webkul-micron@1.1.6/dist/script/micron.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/lp.css" />
+    <title>Finca Monte Carlo</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid d-flex justify-content-between">
+            <a class="navbar-brand" href="#">Finca Monte Carlo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Desplegar Menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-md-flex justify-content-md-end " id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hero">Acerca de nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cards">Horarios de atencion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quotes">Promociones</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="container-fluid">
+        <div class="hero row d-flex align-items-center justify-content-center">
+            <div class="row d-flex align-items-center justify-content-center p-3">
+                <h1 class="title">
+                    Un lugar para disfrutar en familia y amigos
+                </h1>
+                <form id="form1" action="" method="post" class="col-md-6 col-lg-4 m-md-auto pb-5">
+                    <label class="mb-3" for="txtEmail">Haz tu reservacion ya! </label>
+       
+
+                    <br/><input class="form-control-lg" type="email" name="txtEmail" id="txtEmail" placeholder="Feha de reservación" />
+                    <!-- <input class="color=red " type="date" id="start" name="trip-start"
+                    value="2021-02-1"
+                    min="2021-02-01" max="2021-12-31"> -->
+                    <br/><button class="btn btn-primary btn-lg mt-3" data-micron="shake" id="btnForm1">Solicitar</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main class="container mb-5">
+        <section class="row mt-5 d-flex justify-content-center">
+            <h1 class=" title-two col-md-6 text-center">Platillos</h2>
+        </section>
+        <section class="row mt-5">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-top-img" alt="alitas" src="imgs/alitas.jpeg" />
+                    <div class="card-body">
+                        <div class="card-title">Alitas</div>        
+                            <p>6 alitas ya sean bufalo o barbacoa tampien p0uedes pedir mixtas si deas e incluso una orden doble</p>                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-top-img" alt="Mixto" src="imgs/mixto.jpeg" />
+                    <div class="card-body">
+                        <div class="card-title">Mixto</div>
+                            <p>Un solo plato para el paladar esta elaborado con carnes de todo tipo,res,cerdo,pollo,choriso acompañada de tajadas chimol y  frijoles y olas salsas</p>                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-top-img" alt="Pollo asado" src="imgs/pollo asado.jpeg" />
+                    <div class="card-body">
+                        <div class="card-title">Pollo asado</div>
+                            <p>Pollo asado bañado con salsa  acompañado de tajadas, chimol, frijoles adereso y salsa</p>                    </div>
+                </div>
+            </div>
+            <!-- 00000000000000000000000000000 -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-top-img" alt="Amburguesa" src="imgs/amburguesa.png" />
+                    <div class="card-body">
+                        <div class="card-title">Amburguesa</div>
+                            <p>Deliciosa con todos los componentes adecuados, la cantidad adecada para hacer de ella una delicia</p>                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-top-img" alt="Enchiladas" src="imgs/enchiladas.jpeg" />
+                    <div class="card-body">
+                        <div class="card-title">Enchiladas</div>
+                        <p>Platillo tipico de nuestra cultura preparada con pollo tortillas hechas con maiz de nuestra tierra e ingredientes frescos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-top-img" alt="panqueques" src="imgs/panqueques.jpeg" />
+                    <div class="card-body">
+                        <div class="card-title">Panqueques</div>
+                        <p>No hay mejor forma de disfrutar un cafe con esta delicia mientras contemplas la vista a esta altura.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- bebidas -->
+            <section class="row mt-5 d-flex justify-content-center">
+                <h1 class=" title-two col-md-6 text-center">Bebidas</h2>
+            </section>
+            <section class="row mt-5">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img class="card-top-img" alt="alitas" src="imgs/chamorrada.png" />
+                        <div class="card-body">
+                            <div class="card-title">Chamollada</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img class="card-top-img" alt="Mixto" src="imgs/jugo.jpeg" />
+                        <div class="card-body">
+                            <div class="card-title">Te frio</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img class="card-top-img" alt="Pollo asado" src="imgs/cerveza.jpeg" />
+                        <div class="card-body">
+                            <div class="card-title">Jugo tamarindo-te frio</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 00000000000000000000000000000 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img class="card-top-img" alt="Cerveza monte carlo" src="imgs/cerveza monte.jpeg" />
+                        <div class="card-body">
+                            <div class="card-title">Monte Carlo</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img class="card-top-img" alt="Salvavida" src="imgs/cerveza salvavida.jpeg" />
+                        <div class="card-body">
+                            <div class="card-title">Salvavida-Barena</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img class="card-top-img" alt="Trago" src="imgs/trago.jpeg" />
+                        <div class="card-body">
+                            <div class="card-title">Jugo de piña</div>
+                        </div>
+                    </div>
+                </div>              
+            </section>
+            <!-- solicitar correo -->
+            <!-- <div class="col-md-12 mt-2 text-center">
+                <div class="p-5">
+                    <div class="">
+                        <form action="" method="post" class="w-100" id="form2">
+                            <label for="txtEmail2" class="mr-3">Haz tu pedido</label>
+                            <input class="form-control" type="email" name="txtEmail" id="txtEmail2" placeholder="Tu Correo Electrónico" />
+                            <button class="btn btn-primary btn-lg mt-3" id="btnForm2">Solicitar</button>
+
+                            <h1 class=" title-two  margin-top: 20rem text-center">Comunidad</h2>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+       -->
+        
+      <!-- comunidad -->
+      <section class="row mt-5 d-flex justify-content-center">
+        <h1 class=" title-two col-md-6 text-center">Comunidad</h2>
+    </section>
+    <section class="row mt-5">
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <img class="card-top-img" alt="Corazon" src="imgs/corazon.jpeg" />
+                <div class="card-body">
+                    <div class="card-title">Vista al pueblo</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <img class="card-top-img" alt="Red" src="imgs/ejecutivos de la red.jpeg" />
+                <div class="card-body">
+                    <div class="card-title">Corporatio de la red de salud</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <img class="card-top-img" alt="HOSPITAL" src="imgs/hospital el bune samaritano.jpeg" />
+                <div class="card-body">
+                    <div class="card-title">Hospital el bune samaritano</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <img class="card-top-img" alt="pisina" src="imgs/pisina.jpeg" />
+                <div class="card-body">
+                    <div class="card-title">Pisina</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <img class="card-top-img" alt="familia" src="imgs/familia 1.jpeg" />
+                <div class="card-body">
+                    <div class="card-title">Familiares </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <img class="card-top-img" alt="camping" src="imgs/camping.jpeg" />
+                <div class="card-body">
+                    <div class="card-title">Tienda de camping</div>
+                </div>
+            </div>
+        </div>
+        <!-- <section class="container mt-5">
+            <section class="row">
+                <div class="col-md-4 text-center">
+                    <img alt="User Quote 1" src="imgs/quote1.jpg" class="rounded-circle shadow" style="width:200px; height:200px" />
+                    <div class="m-4">
+                        <q>Mi familia no deja de pedirme una cena D'Luigi</q>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img alt="User Quote 2" src="imgs/quote2.jpg" class="rounded-circle shadow" style="width:200px; height:200px" />
+                    <div class="m-4">
+                        <q>No hay palabras que expresen la atención que me brindaron. Y la comida uufffff.</q>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img alt="User Quote 3" src="imgs/quote3.jpg" class="rounded-circle shadow" style="width:200px; height:200px" />
+                    <div class="m-4">
+                        <q>Mi equipo mejoró su productividad desde que el premio por cumplir las metas es D'Luigis</q>
+                    </div>
+                </div>
+            </section>
+
+        </section> -->
+    </main>
+    <footer class="container-fluid bg-dark text-white text-center p-5">
+        <p> Derechos reservados</p>
+
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(e) {
+                    /*Esto es para que no se dispare el formulario*/
+                    document.getElementById("form1").addEventListener("submit", function(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+
+                    });
+                    document.getElementById("form2").addEventListener("submit", function(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+
+                    });
+                    /*  */
+                    var btns = document.getElementsByTagName("button");
+                    for (var i = 0; i < btns.length; i++) {
+                        btns[i].addEventListener("mouseenter", function(e) {
+                            micron.getEle("#" + e.target.id).interaction("bounce").duration(".45").timing("ease-out");
+                        });
+                        btns[i].addEventListener("mouseleave", function(e) {
+                            var classes = e.target.classList;
+                            var toRemove = [];
+                            for (var j = 0; j < classes.length; j++) {
+                                var classstr = classes[j];
+                                if ((/^mjs-.*$/).test(classstr)) {
+                                    toRemove.push(classstr);
+                                }
+                            }
+                            toRemove.map(function(cst) {
+                                e.target.classList.remove(cst);
+                            });
+                        });
+                    }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous "></script>
+</body>
+
+</html>
