@@ -8,13 +8,8 @@ header div.hero {
   text-align:center;
 
 }
-.Presio{
-  color: red;
-}
 
-.ColorBoton{
-  color:rgb(255, 0, 0);
-}
+
 header div.hero div{
    min-height: 50vh;
 }
